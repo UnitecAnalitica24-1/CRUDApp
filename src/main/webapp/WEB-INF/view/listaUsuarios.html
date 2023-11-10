@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usuarios Registrados</title>
+</head>
+<body>
+
+<!-- Motor de plantillas: ciclo for-->
+{{#each listaUsuarios}}
+    <div>
+        {{this.id}} {{this.nombre}}
+    </div>
+{{/each}}
+
+</body>
+</html>
